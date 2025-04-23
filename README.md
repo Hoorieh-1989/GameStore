@@ -28,7 +28,7 @@ Detta dokument beskriver steg-för-steg hur jag har klonat, testat, deployat och
 
 ### 🔄 Automatisera deployment via GitHub:
 1. Gå till din App Service i Azure Portal.
-2. Välj **Deployment Center** och koppla till ditt GitHub-repo.
+2. Välj **Deployment Center** och koppla till  GitHub-repo.
 3. Välj **GitHub Actions** för automatiserad deployment.
 
 
