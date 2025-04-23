@@ -89,7 +89,7 @@ Detta dokument beskriver steg-för-steg hur jag har klonat, testat, deployat och
 ---
 
 ### 🔁 CI/CD med Azure DevOps
-- Jag försökte först sätta upp en CI/CD-pipeline med Azure DevOps, men fick problem med kopplingen mellan GitHub och DevOps.
+- Jag försökte sätta upp en CI/CD-pipeline med Azure DevOps, men fick problem med kopplingen mellan GitHub och DevOps.
 - Trots flera försök fungerade inte deploymenten automatiskt som tänkt via Azure DevOps.
 
 ---
