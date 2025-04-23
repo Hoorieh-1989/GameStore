@@ -93,12 +93,12 @@ Detta dokument beskriver steg-för-steg hur jag har klonat, testat, deployat och
 - Trots flera försök fungerade inte deploymenten automatiskt som tänkt via Azure DevOps.
 
 ---
-##💸 Valde fel App Service-plan
+💸 Valde fel App Service-plan
 Jag råkade välja en App Service-plan (B1) som kostar pengar – något jag inte märkte först. Detta gjorde att det började ticka kostnader på mitt Azure-konto.
 🧨 Lösning: När jag var klar med testningen och deploymenten tog jag bort hela resursgruppen från Azure för att undvika fortsatt debitering.
 ---
 
-##⚠️ Glöm inte:
+⚠️ Glöm inte:
 - Använd kostnadsfria resurser om du bara testar!
 - Radera resursgruppen när du är klar för att slippa onödiga avgifter!
 
