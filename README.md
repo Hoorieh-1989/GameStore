@@ -5,7 +5,7 @@ Detta dokument beskriver steg-för-steg hur jag har klonat, testat, deployat och
 
 ## 1. 💻 Klona och testa applikationen lokalt
 
-1. Klona GitHub-repot till din dator:
+1. Klona GitHub-repot till dator
    
 2. Öppna projektet i Visual Studio.
    
