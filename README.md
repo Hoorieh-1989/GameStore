@@ -1,7 +1,6 @@
 # 🚀 Deploymentdokumentation: Gamestore på Azure App Service
 
-Detta dokument beskriver steg-för-steg hur jag har klonat, testat, deployat och säkrat webbapplikationen Gamestore på Azure App Service. Guiden täcker alla krav för betyget Godkänd (G) enligt kursens inlämningsuppgift.
-
+Detta dokument beskriver steg-för-steg hur jag har klonat, testat, deployat och säkrat webbapplikationen Gamestore på Azure App Service.
 ---
 
 ## 1. 💻 Klona och testa applikationen lokalt
