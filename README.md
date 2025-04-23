@@ -7,29 +7,21 @@ Detta dokument beskriver steg-för-steg hur jag har klonat, testat, deployat och
 ## 1. 💻 Klona och testa applikationen lokalt
 
 1. Klona GitHub-repot till din dator:
-   ```bash
-   git clone <repo-url>
-   ```
+   
 2. Öppna projektet i Visual Studio.
-3. Kör applikationen lokalt för att säkerställa att allt fungerar innan deployment.
+   
+2. Kör applikationen lokalt för att säkerställa att allt fungerar innan deployment.
 
 ---
 
 ## 2. ☁️ Skapa Azure App Service & publicera applikationen
 
-### 🔐 Logga in på Azure:
-```bash
-az login
-```
+### 🔐 Logga in på Azure
 
-### 🛠️ Skapa resurser via CLI:
-```bash
-az group create --name <resource-group-name> --location central-europe
-az appservice plan create --name <appservice-plan-name> --resource-group <resource-group-name> --sku B1
-az webapp create --resource-group <resource-group-name> --plan <appservice-plan-name> --name <app-name> --runtime "DOTNETCORE:8.0"
-```
 
-> Du kan även välja runtime "DOTNETCORE:9.0".
+### 🛠️ Skapa resurser via CLI
+
+
 
 ### 📦 Alternativt via Azure Portal:
 1. Gå till "Skapa en resurs" > "Webb" > "Webbapp".
@@ -41,7 +33,7 @@ az webapp create --resource-group <resource-group-name> --plan <appservice-plan-
 3. Välj **GitHub Actions** för automatiserad deployment.
 
 Verifiera att deployment är lyckad:
-- 🌍 [https://<app-name>.azurewebsites.net](https://<app-name>.azurewebsites.net)
+- 🌍 [https://<app-name>.azurewebsites.net]
 
 ---
 
@@ -63,7 +55,7 @@ Verifiera att deployment är lyckad:
 ### 🌐 SSL (HTTPS):
 1. Gå till **TLS/SSL-inställningar**.
 2. Aktivera **HTTPS Only** för säker trafik.
-3. Gratis SSL-certifikat för `azurewebsites.net`-domäner ingår.
+3. Gratis SSL-certifikat för `azurewebsites.net` domäner ingår.
 
 ---
 
