@@ -31,8 +31,7 @@ Detta dokument beskriver steg-för-steg hur jag har klonat, testat, deployat och
 2. Välj **Deployment Center** och koppla till ditt GitHub-repo.
 3. Välj **GitHub Actions** för automatiserad deployment.
 
-Verifiera att deployment är lyckad:
-- 🌍 [https://<app-name>.azurewebsites.net]
+
 
 ---
 
